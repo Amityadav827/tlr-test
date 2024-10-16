@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- nav start -->
@@ -63,11 +64,11 @@
     <!-- section end -->
 
     <!-- section start -->
-    <section id="about" class="symphony_banner section">
+    <section data-aos="fade-up" data-aos-duration="1000" id="about" class="symphony_banner section">
         <img src="./images/Symphony.jpg" alt="">
 
         <div class="symphony_main_content">
-            <div class="symphony_banner_content">
+            <div data-aos="fade-up" data-aos-duration="1000" class="symphony_banner_content">
                 <h2>A Symphony of Restoration</h2>
                 <h5>Meticulous Care & Precision</h5>
                 <p> Harmonizing traditional craftsmanship with innovative techniques.
@@ -79,14 +80,14 @@
     <!-- section end -->
 
     <!-- section start -->
-    <section id="expertise" class="wefix_banner section">
+    <section data-aos="fade-up" data-aos-duration="1000" id="expertise" class="wefix_banner section">
         <img src="./images/we_fix.jpg" alt="">
         <div class="wefix_main_content">
             <div class="wefix_banner_content">
                 <h4>We Fix</h4>
                 <div class="wefix_tabs_main">
                     <div class="wefix_tabs">
-                        <div class="tab">
+                        <div data-aos="fade-right" class="tab">
                             <button class="wefix_tablinks" onclick="wefix(event, 'Belts')">Belts</button>
                             <button class="wefix_tablinks" onclick="wefix(event, 'Bags')">Bags</button>
                             <button class="wefix_tablinks" onclick="wefix(event, 'Shoes')" id="wefix">Shoes</button>
@@ -94,7 +95,7 @@
                             <button class="wefix_tablinks" onclick="wefix(event, 'Clothes')">Clothes</button>
                         </div>
 
-                        <div class="wefix_tabs_content">
+                        <div data-aos="fade-up" data-aos-duration="1000" class="wefix_tabs_content">
                             <div id="Belts" class="wefix_tabcontent">
                                 <h2>The Belt of Your Elegance</h2>
                                 <h6>Where elegance meets strength, designed to complement your journey with timeless sophistication.</h6>
@@ -133,13 +134,13 @@
     <!-- section end -->
 
     <!-- section start -->
-    <section id="categories" class="leather_issues_banner section">
+    <section data-aos="fade-up" data-aos-duration="1000" id="categories" class="leather_issues_banner section">
         <img src="./images/leather_issues.jpg" alt="">
         <div class="leather_issues_main_content">
             <div class="leather_issues_banner_content">
                 <div class="leather_issues_tabs_main">
                     <div class="leather_issues_tabs">
-                        <div class="tab">
+                        <div data-aos="fade-right" class="tab">
                             <h4>Leather Issues</h4>
                             <button class="leather_tablinks" onclick="leather(event, 'cuttears')">Cuts &
                                 Tears</button>
@@ -150,7 +151,7 @@
                             <button class="leather_tablinks" onclick="leather(event, 'petdamage')">Pet Damage</button>
                         </div>
 
-                        <div class="leather_issues_tabs_content">
+                        <div data-aos="fade-up" data-aos-duration="1000" class="leather_issues_tabs_content">
                             <div id="cuttears" class="leather_tabcontent">
                                 <h2>Our craftsmen transform blemishes into badges of honor with precise stitching and
                                     patching.</h2>
@@ -181,7 +182,7 @@
 
     <!-- section start -->
     <section id="projects" class="our_work_main_sec section">
-        <div class="our_work_sec">
+        <div data-aos="fade-up" data-aos-duration="1000" class="our_work_sec">
             <h4>Our Work</h4>
             <a class="discover_btn" href="#.">DISCOVER</a>
         </div>
@@ -216,7 +217,7 @@
 
     <!-- section start -->
     <section class="brands_restore_sec section">
-        <div class="brands_restore_head">
+        <div data-aos="fade-up" data-aos-duration="1000" class="brands_restore_head">
             <h4>Brands We Restore</h4>
         </div>
         <div class="brands_restore_logo">
@@ -247,11 +248,11 @@
         <img src="./images/testimonials.jpg" alt="">
         <div class="testimonials_slider">
             <div class="testimonials_main">
-                <div class="testimonials_head">
+                <div data-aos="fade-up" data-aos-duration="1000" class="testimonials_head">
                     <h5>What Customers Have to Say About Us</h5>
                 </div>
                 <div class="carousel-wrap">
-                    <div class="testimonials_car owl-carousel">
+                    <div data-aos="fade-up" data-aos-duration="1000" class="testimonials_car owl-carousel">
                         <div class="item">
                             <div class="testimonial_content">
                                 <h4>Truly Commendable work. My Guess handbag is as good as new. Thank you so much ‘The
@@ -288,10 +289,10 @@
     <!-- section end -->
 
     <!-- section start -->
-    <section id="contact" class="reach_out_sec section">
+    <section data-aos="fade-up" data-aos-duration="1000" id="contact" class="reach_out_sec section">
         <img src="./images/contact_us.jpg" alt="">
         <div class="reach_out_main_content">
-            <div class="reach_out_sec_content">
+            <div data-aos="fade-up" data-aos-duration="1000" class="reach_out_sec_content">
                 <h4>Visit Us or Reach Out</h4>
                 <p>1069, Near Shri Kishan Param Dham Mandir, Faridabad, Gurgaon Road, Badkhal Enclave, 121001</p>
                 <div class="cont_info_footer">
@@ -350,5 +351,9 @@
     <script src="./js/jquery.min.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
